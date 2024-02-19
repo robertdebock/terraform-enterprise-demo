@@ -1,4 +1,4 @@
 resource "random_pet" "default" {
-  count  = 100
+  count  = 99
   prefix = "your"
 }
