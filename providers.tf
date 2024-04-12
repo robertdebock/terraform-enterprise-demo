@@ -1,12 +1,12 @@
 terraform {
-  # cloud {
-  #   hostname = "tfe.adfinis.dev"
-  #   organization = "Adfinis"
+  cloud {
+    hostname = "tfe.adfinis.dev"
+    organization = "Adfinis"
 
-  #   workspaces {
-  #     name = "cli-drive"
-  #   }
-  # }
+    workspaces {
+      name = "cli-drive"
+    }
+  }
   required_providers {
     random = {
       source = "hashicorp/random"
