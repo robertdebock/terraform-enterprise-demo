@@ -1,9 +1,9 @@
 resource "random_pet" "your" {
-  count  = 3
+  count  = 5
   prefix = "your-uat"
 }
 
 resource "random_pet" "my" {
-  count  = 3 
+  count  = 5
   prefix = "my-uat"
 }
